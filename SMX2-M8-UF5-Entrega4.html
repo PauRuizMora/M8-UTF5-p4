@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Entrega-4-M8-UF5</title>
+</head>
+
+<body>
+    <header>
+        <h3 align="center">Registre d'Alumnes</h3>
+    </header>
+    <br>
+    <table align="center">
+        <form action="mailto=ruiz.mora.pau@gmail.com?subject=registrealumne" enctype="text/plain" method="Post">
+            <tr>
+                <td><label for="nomid">Nom:</label></td>
+                <td><input id="nomid" type="text" name="name" placeholder="Posa el teu nom"></td>
+            </tr>
+            <tr>
+                <td><label for="cognomid">Cognom:</label></td>
+                <td><input id=cognomid" type="text" name="name" placeholder="Posa el teu cognom"></td>
+            </tr>
+            <tr>
+                <td><label for="emailid">E-mail:</label></td>
+                <td><input id="emailid" type="email" name="name" placeholder="Posa el teu e-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="datadenaixementid">Data de naixement:</label></td>
+                <td><input id="datadenaixementid" type="date" name="name" value="2001-10-29"></td>
+            </tr>
+            <tr>
+                <td><label for="colorid">Color</label></td>
+                <td><input id="colorid" type="color" name="name" value="#ff0000"></td>
+            </tr>
+            <!-- Seguent bloc de preguntes (check box i radio)-->
+            <tr></tr>
+            <tr>
+                <td rowspan="6"><label for="modulsid">Moduls Preferits</label></td>
+                <td><input id="modulsid" type="checkbox">M4-Sistemes Operatius en Xarxa </td>
+            </tr>
+            <tr>
+                <td><input id="modulsid" type="checkbox">M6-Seguretat Informàtica</td>
+            </tr>
+            <tr>
+                <td><input id="modulsid" type="checkbox">M7 - Serveis en Xarxa</td>
+            </tr>
+            <tr>
+                <td><input id="modulsid" type="checkbox">M8-Aplicacions Web</td>
+            </tr>
+            <tr>
+                <td><input id="modulsid" type="checkbox">M10-Empresa i Iniciativa Emprenedora</td>
+            </tr>
+            <tr>
+                <td><input id="modulsid" type="checkbox">M11-Angles Tècnic</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="5"><label for="despresid">Què voldries fer despés d'acabar SMX?</label></td>
+                <td><input id="desoresid" type="radio"> DAM </td>
+            </tr>
+            <tr>
+                <td><input id="desoresid" type="radio"> ASIX </td>
+            </tr>
+            <tr>
+                <td><input id="desoresid" type="radio"> Enginyeria Informàtica </td>
+            </tr>
+            <tr>
+                <td><input id="desoresid" type="radio"> Treballar </td>
+            </tr>
+            <tr>
+                <td><input id="desoresid" type="radio"> Altres </td>
+            </tr>
+            <tr></tr>
+            <!-- Seguent bloc de preguntes -->
+            <tr>
+                <td><label for="semblaid">Què t'està semblant el llenguatge HTML:</label></td>
+                <td><select id="semblaid" name="opinion">
+                        <option value="10">M'ha agradat</option>
+                        <option value="7">Està bé</option>
+                        <option value="5">Mesomenys</option>
+                        <option value="3">No molt</option>
+                        <option value="0">Gens</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- Seguent bloc de preguntes -->
+            <tr>
+                <td><label for="entregaid">Nota que esperes d'aquesta entrega?</label> </td>
+                <td> <input id="entregaid" type="number" min="0" max="10" value="5" name="entrega">
+                </td>
+            </tr>
+            <!-- Seguent bloc de preguntes -->
+            <tr>
+                <td><label for="passwordid">Escriu un pasword per xifrar l'entrega:</label></td>
+                <td><input id="passwordid" type="password" placeholder="Escriu un password">  </td>
+            </tr>
+            <!-- Seguent bloc de Botons -->
+            <tr>
+                <th colspan="2">
+                <input id="sendid" type="submit" value="Enviar Respostes">
+                <input id="netejarformulariid" type="reset" value="Netejar Formulari">
+                </th>
+            </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>
